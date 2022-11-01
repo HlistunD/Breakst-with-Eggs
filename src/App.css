@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: #D1E8E4;
+}
+h1 {
+    font-family: 'Mali', cursive;
+    color: #C37B89;
+}
+h2 {
+    font-family: 'Mali', cursive;
+    color: gray;
+}
+h3 {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: 'Mali', cursive;
+    color: gray;
+}
+.btnShow {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    text-align: center;  
+    align-self: center;
+    font-family: 'Mali', cursive;
+    background-color: #D1E8E4;
+    color: #C37B89;
+    font-weight: 700;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn {
+    display: flex;
+    justify-content: space-evenly;
+}
+.btnOne, .btnTwo, .btnDone, .btnEvery {
+    background-color: #C37B89;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    text-transform: uppercase;
+}
+.btnDone {
+    margin-bottom: 20px;
+}
+.btnEvery {
+    background-color: #fff;
+    color: #C37B89;
+    font-family: 'Mali', cursive;
+    width: 200px;
+    padding: 20px;
+    font-weight: 700;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
