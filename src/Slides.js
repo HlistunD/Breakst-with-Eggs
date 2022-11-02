@@ -10,6 +10,7 @@ function App() {
   const backRecipe = () => {
     setBreakfast((breakfast => {
       breakfast --;
+      setShowMore(false);
       if(breakfast < 0) {
       return data.length -1;
       }
@@ -18,7 +19,8 @@ function App() {
   }
   const nextRecipe = () => {
     setBreakfast((breakfast => {
-      breakfast++;
+      breakfast ++;
+      setShowMore(false);
       if(breakfast > data.length -1) {
         breakfast = 0;
       }

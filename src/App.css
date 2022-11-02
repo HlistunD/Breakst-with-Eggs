@@ -1,6 +1,6 @@
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: center;    
     background-color: #D1E8E4;
 }
 h1 {
@@ -41,9 +41,12 @@ h3 {
     padding: 10px;
     border: none;
     text-transform: uppercase;
+    cursor: pointer;
 }
 .btnDone {
     margin-bottom: 20px;
+    width: 100px;
+    border-radius: 10px;
 }
 .btnEvery {
     background-color: #fff;
@@ -53,5 +56,37 @@ h3 {
     padding: 20px;
     font-weight: 700;
 }
+.containerSmall {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+input{
+    padding: 30px;
+    width: 260px;
+    margin-right: 100px;
+    color: gray;
+    font-family: 'Mali', cursive;
+}
+.btnAdd {
+    border: none;
+    color: #C37B89;
+    font-family: 'Mali', cursive;
+    margin-right: 100px;
+    padding: 20px;
+    background-color: #D1E8E4;
+    font-size: 20px;
+    cursor: pointer;
+}
+.parent {
+    display: flex;
+    flex-direction: column;
+}
+p {
+    font-family: 'Mali', cursive;
+    color: grey;
+}
+
+
 
 
